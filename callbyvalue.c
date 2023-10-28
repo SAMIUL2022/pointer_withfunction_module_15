@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 void fun (int x)
 {
 
-// x=100;
+x=100;
 printf("main xer addrress-%d\n",&x);
 printf("%d\n",x);
 
