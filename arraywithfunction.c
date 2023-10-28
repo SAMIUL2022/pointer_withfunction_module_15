@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 
-void fun (int *ab,int n)
+void fun (int *ab)
 {
-for (int i = 0; i < n; i++)
+for (int i = 0; i < 5; i++)
 {
    printf("%d ",ab[i]);
 }
@@ -14,15 +14,15 @@ for (int i = 0; i < n; i++)
 }
 int main ()
 {
-int n;
-scanf("%d",&n);
-int ar[n];
-for (int i = 0; i < n; i++)
+
+
+int ar[5];
+for (int i = 0; i < 5; i++)
 {
   scanf("%d",&ar[i]);
 }
 
-fun(ar,n);
+fun(ar);
 
     return 0;
 }
